@@ -35,4 +35,28 @@ To enable the extension to interact with Google Slides, follow these steps to se
 - Set the **Authorized redirect URIs** as follows:
 - Copy the generated **Client ID** and **Client Secret** and replace it in the config.
 
-![Alt Text for Image](https://drive.google.com/uc?export=view&id=1S3gFKYDHcOuhN686wWK5RQLbykK292jH)
+## Working and Screenshots
+
+1. After the setup is done, click the **Save to Gslides** icon in the Chrome extensions tab.
+
+   ![Clicking the Save to Gslides Icon](https://drive.google.com/file/d/1J0YESVlMArXtt5OLfaX5H5P3oxbNJxW5/view?usp=drive_link)
+
+2. It will prompt for a login. Provide your login credentials and enter.
+
+3. Browse the internet for your desired content. When you find something interesting, copy the text, right-click, and select **Save to new slide**.
+
+   ![Saving Text to Slide](https://drive.google.com/file/d/16_Mvl4Ke4AyiSQ-tHZUU_u6AKk4jq-qP/view?usp=drive_link)
+
+4. Check your Google Slides presentation. A new presentation will be created, and the copied text will be added as bullet points.
+
+   ![New Slide Created in Google Slides](https://drive.google.com/file/d/1vXYHrA9cYxbubHkX9Q1_cewEE31qjvJ8/view?usp=drive_link)
+
+5. To add an image, right-click on the image and select **Add to existing slide**, following the same steps.
+
+   ![Adding Image to Slide](https://drive.google.com/file/d/1S3gFKYDHcOuhN686wWK5RQLbykK292jH/view?usp=drive_link)
+
+6. Finally, open Google Slides to see your new slides. The image and text will be added to the slides as expected.
+
+   ![Final Slides View](https://drive.google.com/file/d/10e56JJ0BBkcvoVgds_ty8Eu0C5h-KSLB/view?usp=drive_link)
+   
+

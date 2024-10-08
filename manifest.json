@@ -1,0 +1,22 @@
+{
+  "name": "Save to Google Slides",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "This is to save the images/text to google slides",
+  "action": {
+    "default_popup": "login.html"
+  },
+  "permissions": [
+    "identity",
+    "contextMenus",
+    "activeTab",
+    "storage"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  },
+  "key": "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQChBHUV0Z2vK/VjD0+TV55XHp15hSp5YhqpIrJbbTe/imMEi2j17Oj5+bisyYXDmt5qGpMMLYYoSVR4Sz0k3luYErfdXWuvL+OY3i7Xxa7LNo5c2DaQUbW/ZzRt/4N+UqzHxzkga+NCazXWHEHu2AoCVteXDhKjJbScVAnasu77qPeYi10x3aoBCtZQol1vXn6bGIWj3MbYO+OpEJHe9ReRFPaVG7YsLiDChGP1VILtdKJAwAvjFFfkFqNdxP1tFXwTGR9aOwYGQ6+Goi73yBvWhhz5x10hF3/+nEwgZZrfbmUQVYl0Q0YyStyOy6LMcD+TYgOcGJW38uCyvjEqwJaxAgMBAAECggEAFzUYbRcjxjoslDpXiqc6cVhpHmPfoyl31JXlesD1+TDzJEC1qvBvrzaGHr1YVBY6ZV+ZfyFWm0WKcQt4b3EZvC7tJPDl6D+blbkRq6mDOn3irKYVzdzruFUh3OgoJdO5ByhYkarge/5jfuM0Fj6OyWyGhpqRfBtJ+gLbfWkvLG1Ll8rs2+K0cjyCDZnDjCKKuinx68y0FHhuH3XdHKNVGs/Z4KagqbvYbFwzcxU7Wt2/xRk8EPQnJjfn8Z1ZKDSpPb1zFdAqPrWzhor1nAgd0vieanoFRHyg1XZBhmCpWrQoaB9/fUQJapsM65SiuqfO/5LSEp5FMTgTB/4UagZK0wKBgQDZVO7oLg1miSO7usfzcbNT+CIysc/fQo1HXGACwtFmnuQCgjoKXI2d0VqChmjqIoo6GyM7ruEiKyWYN/7bQAhajLdWqNb3w4ieh+amkr0l5jwbqEkeX70DaxldrivAT8azFy2gD9gJXEOeyjGgzhlOFYHvAI/16zdIa0P/mg/o5wKBgQC9qoHt49ThRChNnFurAa6KOnmnKZxFvIqZP8IHXGm/XpBZ+hHRdG7zkBu76qPa9Go05r/kaYx3l7HxALDOVI1++r5Jl2p6Lw5jqatMlL/kcSWHcEKRtaAsy3l0hSpILa1Gc9JZE5iHbPbTa8z7ijYkLznbKF95oatwmagDC+YYpwKBgE91bxeyZrHbaBYl9x75riAAM7inLCIree3iRzQbOGY1p5WHOWM6bYiK13WrYMZhtHoEHAChMqzEa61Yo7RTl/pLQmjLuDTD57pWY6z5L3Cg2c8e2wTg6gFK8e4/VL2uLS6jRcokoM7jTdHLiROK5tOWp3fTk87Mndy7YxQbpr93AoGAYXcTmbnwlWo/A9ML0E7m8KWoClz5r2R6HNKE1N+KgAsKRxKYwXgB5Cvz9JdZaJUdVt4VUj1jL7nGeUCPmxgcNlqIGq0yzGMOE+0G2C3AhpYWYQkxTEt3ak2NtnEQD1NZrdCrEZdeVImMNY06IzEdLW8PXi3bElggD5cGnbopnhUCgYEAxzx+6xzugyXkMnmUtByT2FyE9yD/bmvv6wECQq3HKZ7YHO14ZZLCz1ZCNDj1uSJMohcb2DzutX7faUVFCr9L+kLaR57JbzqGb+k+5/mKzHVWGeTxuo0ZDU9c3yb/9gxKlDx/7OQS9tpnwGhaeVIZU9Smesq/d6M4wthoQ9KVpfA=",
+  "background": {
+    "service_worker": "background.js"
+  }
+}

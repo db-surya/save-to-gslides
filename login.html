@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="script-src 'nonce-loginScript';">  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Google Auth</title>
+  <style>
+    body {
+      width: 250px;
+      padding: 20px;
+      font-family: 'Arial', sans-serif;
+      background-color: #f9c647;
+    }
+    p {
+      font-size: 14px;
+      color: #000;
+      margin-bottom: 20px;
+      line-height: 1.5; 
+      text-align: center;
+    }
+
+    button {
+      display: block;
+      margin: 0 auto;
+      padding: 8px;
+      background-color: #fff;
+      color: #000;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: box-shadow 0.3s ease;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    button img {
+      vertical-align: middle;
+      margin-right: 8px;
+    }
+
+    button:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      background-color: #004225 ;
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+    <img src="./cloud.png" alt="Your Image" style="width: 100%;">
+  <p>Effortlessly save copied text or images directly to your Google Slides without opening it!</p>
+
+
+  <button id="loginButton">
+    <img src="https://img.icons8.com/color/16/000000/google-logo.png" alt="Google Logo">
+    <b>SIGN IN USING GOOGLE</b>
+  </button>
+
+  <script nonce="loginScript" src="/config.js"></script>
+  <script nonce="loginScript" src="/loginScript.js"></script>
+
+</body>
+
+</html>

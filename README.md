@@ -9,7 +9,7 @@ Follow these steps to set up and run the project locally:
 ### 1. Clone the Repository  
 Clone the project to your local machine using the following command:
 ```bash
-git clone https://github.com/your-repo-url.git
+git clone https://github.com/db-surya/save-to-gslides
 ```
 ### 2. Load the Extension in Chrome  
 - Navigate to `chrome://extensions` in your Chrome browser.

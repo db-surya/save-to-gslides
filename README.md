@@ -33,28 +33,6 @@ To enable the extension to interact with Google Slides, follow these steps to se
 - Navigate to **Credentials** and create an OAuth 2.0 Client ID.
 - Choose **Application type: Web application**.
 - Set the **Authorized redirect URIs** as follows:
+- Copy the generated **Client ID** and **Client Secret** and replace it in the config.
 
-- Copy the generated **Client ID** and **Client Secret**.
-
-#### 3.4 Add OAuth Configuration in the Manifest  
-To integrate OAuth 2.0 in your Chrome extension, follow these steps to modify the `manifest.json` file:
-
-1. Open the `manifest.json` file in the root directory of your project.
-2. Add the OAuth 2.0 Client ID and the necessary permissions to enable the extension to interact with Google Slides:
-```json
-{
-  "name": "Save to Google Slides",
-  "version": "1.0",
-  "manifest_version": 3,
-  "oauth2": {
-    "client_id": "YOUR_CLIENT_ID",
-    "scopes": ["https://www.googleapis.com/auth/presentations"]
-  },
-  "permissions": [
-    "identity",
-    "activeTab",
-    "https://www.googleapis.com/"
-  ]
-}
-```
 ![Alt Text for Image](https://drive.google.com/uc?export=view&id=1S3gFKYDHcOuhN686wWK5RQLbykK292jH)

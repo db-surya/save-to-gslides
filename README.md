@@ -57,3 +57,4 @@ To integrate OAuth 2.0 in your Chrome extension, follow these steps to modify th
   ]
 }
 ```
+![Alt Text for Image](https://drive.google.com/uc?export=view&id=1S3gFKYDHcOuhN686wWK5RQLbykK292jH)

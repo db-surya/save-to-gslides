@@ -1,4 +1,3 @@
-const config = require('./config');
 let itemsPerPageCount = 5;
 let pageCount = 1;
 let accessToken = '';
